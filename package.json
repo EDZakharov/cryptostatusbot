@@ -1,0 +1,35 @@
+{
+	"name": "cryptostatusbot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "bot.ts",
+	"scripts": {
+		"dev": "tsx watch bot.ts",
+		"start": "nodemon ./build/src/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/EDZakharov/cryptostatusbot.git"
+	},
+	"author": "EDZakharov",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/EDZakharov/cryptostatusbot/issues"
+	},
+	"homepage": "https://github.com/EDZakharov/cryptostatusbot#readme",
+	"devDependencies": {
+		"@babel/preset-env": "^7.24.3",
+		"@babel/preset-typescript": "^7.24.1",
+		"@types/jest": "^29.5.12",
+		"@types/node": "^20.10.4",
+		"ts-jest": "^29.1.2",
+		"tsx": "^4.6.2",
+		"typescript": "^5.4.5"
+	},
+	"dependencies": {
+		"axios": "^1.7.2",
+		"dotenv": "^16.4.5",
+		"grammy": "^1.24.1"
+	}
+}
